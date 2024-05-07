@@ -181,19 +181,43 @@
 #     NumT = '?'
 # print(f'Tu calificacion es {numeroo}, sacaste una {NumT} ')
 # -----------Ciclos------------------
-cont = 0
-Max = 5
-while cont <= Max:
-    print(cont)
-    cont += 1
-else:
-    print('Fin ciclo')
-
-cont2 = 5
-Min = 1
-while cont2 >= Min:
-    print(cont2)
-    cont2 -= 1
-else:
-    print('Fin ciclo')
-
+# cont = 0
+# Max = 5
+# while cont <= Max:
+#     print(cont)
+#     cont += 1
+# else:
+#     print('Fin ciclo')
+#
+# cont2 = 5
+# Min = 1
+# while cont2 >= Min:
+#     print(cont2)
+#     cont2 -= 1
+# else:
+#     print('Fin ciclo')
+#
+# # -------- FOR -------------
+# cad = 'Hola'
+#
+# for letra in cad:
+#     print(letra)
+# else:
+#     print('En ciclo')
+# cont = 1
+# for letra in "Holanda":
+#     if letra == 'a':
+#         print(f'Letra encontrada {letra} un total de {cont} vez')
+#         cont += 1
+#         break
+# else:
+# #     print('Fin ciclo')
+# for i in range(6):
+#     if i % 2 == 0:
+#         print(f'El valor es {i}')
+# for n in range(6):
+#     if n % 2 != 0:
+#         continue
+#     print(f'El valor es {n}')
+nombres = ["Juan", "Carlos", "Karla"]
+print(nombres[0:3])
