@@ -182,9 +182,18 @@
 # print(f'Tu calificacion es {numeroo}, sacaste una {NumT} ')
 # -----------Ciclos------------------
 cont = 0
-while cont < 5:
-    print('Ciclo')
+Max = 5
+while cont <= Max:
+    print(cont)
     cont += 1
+else:
+    print('Fin ciclo')
+
+cont2 = 5
+Min = 1
+while cont2 >= Min:
+    print(cont2)
+    cont2 -= 1
 else:
     print('Fin ciclo')
 
