@@ -262,15 +262,37 @@
 # ft = ll
 # print(ft)
 # Set ----------------------------
-planeta = {'Marte', 'Jupiter', 'Venus'}
-print(planeta)
-print(len(planeta))
-print('Marte' in planeta)  # Con listas y tuplas tmb
-planeta.add('Tierra')
-print(planeta)
-planeta.add('Tierra')
-print(planeta)
-planeta.remove('Tierra')
-print(planeta)
-planeta.discard('Marte')  # Elimina un elemento, pero si no está pues amen, no hace nada
-print(planeta)
+# planeta = {'Marte', 'Jupiter', 'Venus'}
+# print(planeta)
+# print(len(planeta))
+# print('Marte' in planeta)  # Con listas y tuplas tmb
+# planeta.add('Tierra')
+# print(planeta)
+# planeta.add('Tierra')
+# print(planeta)
+# planeta.remove('Tierra')
+# print(planeta)
+# planeta.discard('Marte')  # Elimina un elemento, pero si no está pues amen, no hace nada
+# print(planeta)
+# Diccionario ---------------
+diccionario = {
+    'Ide': 'Integrated Development Environment',
+    'OOP': 'Object Oriented Programming',
+    'DB': 'Database'
+}
+print(diccionario)
+print(len(diccionario))
+print(diccionario['Ide'])
+print(diccionario.get('OOP'))
+diccionario['Ide'] = 'Integrated dev Env'
+print(diccionario)
+print(diccionario['Ide'])
+for i in diccionario:
+    print(i)
+for j in diccionario.values():
+    print(j)
+print('Ide' in diccionario)
+diccionario['PK'] = 'Primary Key'
+print(diccionario)
+diccionario.pop('Ide')
+print(diccionario)
