@@ -262,3 +262,15 @@
 # ft = ll
 # print(ft)
 # Set ----------------------------
+planeta = {'Marte', 'Jupiter', 'Venus'}
+print(planeta)
+print(len(planeta))
+print('Marte' in planeta)  # Con listas y tuplas tmb
+planeta.add('Tierra')
+print(planeta)
+planeta.add('Tierra')
+print(planeta)
+planeta.remove('Tierra')
+print(planeta)
+planeta.discard('Marte')  # Elimina un elemento, pero si no está pues amen, no hace nada
+print(planeta)
