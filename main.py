@@ -13,7 +13,7 @@
 # print(id(c))  # Posición de memoria que almacena la variable
 # print(id(d))
 # # --Ejercicio2--
-# nombre = "Dan"
+# nombre =  "Dan"
 # numero = 12345678
 # correo = "dorozco0@gmail.com"
 # print("Prueba2")
