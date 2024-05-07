@@ -181,3 +181,10 @@
 #     NumT = '?'
 # print(f'Tu calificacion es {numeroo}, sacaste una {NumT} ')
 # -----------Ciclos------------------
+cont = 0
+while cont < 5:
+    print('Ciclo')
+    cont += 1
+else:
+    print('Fin ciclo')
+
