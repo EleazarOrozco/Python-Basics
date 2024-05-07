@@ -219,5 +219,46 @@
 #     if n % 2 != 0:
 #         continue
 #     print(f'El valor es {n}')
-nombres = ["Juan", "Carlos", "Karla"]
-print(nombres[0:3])
+# nombres = ["Juan", "Carlos", "Karla"]
+# print(nombres[0:3])
+# for nombre in nombres:
+#     print(nombre)
+# else:
+#     print('No hay mas nombres')
+#
+# print(len(nombres))
+# nombres.append("Juan2")  # Append añadir
+# print(nombres)
+# nombres.insert(1, "Pepe")
+# print(nombres)
+# nombres.remove("Juan2")
+# print(nombres)
+# nombres.pop()
+# print(nombres)
+# del nombres[0]
+# print(nombres)
+# for i in range(11):
+#     if i % 3 == 0:
+#         print(f'El valor es {i}')
+# for i in range(2, 7):
+#     print(f'El valor es {i}')
+# for i in range(3, 11, 2):
+#     print(f'El valor es22 {i}')
+# # ----------- Tuplas ------------
+# frutas = ('Naranja', 'Platano', 'Manzana')
+# for fruta in frutas:
+#     print(fruta, end=' ')
+# flist = list(frutas)
+# flist.append("Hola")
+# frutas = tuple(flist)
+# print(frutas)
+# Modificar tupla ---------------------------
+# tupla = (13, 1, 8, 3, 2, 5, 8)
+# ft = list(tupla)
+# ll = []
+# for f in ft:
+#     if f < 5:
+#         ll.append(f)
+# ft = ll
+# print(ft)
+# Set ----------------------------
