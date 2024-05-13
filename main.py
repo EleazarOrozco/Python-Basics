@@ -275,24 +275,119 @@
 # planeta.discard('Marte')  # Elimina un elemento, pero si no está pues amen, no hace nada
 # print(planeta)
 # Diccionario ---------------
-diccionario = {
-    'Ide': 'Integrated Development Environment',
-    'OOP': 'Object Oriented Programming',
-    'DB': 'Database'
-}
-print(diccionario)
-print(len(diccionario))
-print(diccionario['Ide'])
-print(diccionario.get('OOP'))
-diccionario['Ide'] = 'Integrated dev Env'
-print(diccionario)
-print(diccionario['Ide'])
-for i in diccionario:
-    print(i)
-for j in diccionario.values():
-    print(j)
-print('Ide' in diccionario)
-diccionario['PK'] = 'Primary Key'
-print(diccionario)
-diccionario.pop('Ide')
-print(diccionario)
+# diccionario = {
+#     'Ide': 'Integrated Development Environment',
+#     'OOP': 'Object Oriented Programming',
+#     'DB': 'Database'
+# }
+# print(diccionario)
+# print(len(diccionario))
+# print(diccionario['Ide'])
+# print(diccionario.get('OOP'))
+# diccionario['Ide'] = 'Integrated dev Env'
+# print(diccionario)
+# print(diccionario['Ide'])
+# for i in diccionario:
+#     print(i)
+# for j in diccionario.values():
+#     print(j)
+# print('Ide' in diccionario)
+# diccionario['PK'] = 'Primary Key'
+# print(diccionario)
+# diccionario.pop('Ide')
+# print(diccionario)
+# Functions ---------------------
+# def fun(a=0, b=0) -> int:  # Posible dato que puede devolver la funcion
+#     return a + b
+#
+#
+# # res = fun(1, 2)
+# # print(f'el resultado es: {res}')
+# print(f'el resultado es: {fun(5, 3)}')
+#
+#
+# def nom(*args):
+#     for nombre in args:
+#         print(nombre)
+#
+#
+# nom('Juan', 'Carlos', 'Pedro', 'Pablo')
+#
+#
+# def suma(*args):
+#     ress = 1
+#     for i in args:
+#         ress *= i
+#     print(ress)
+#
+#
+# suma(1, 2, 3, 4)
+#
+#
+# def term(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f'{key}: {value}')
+#
+#
+# term(IDE='Integrated Development Environment', PK='Primary Key')
+#
+# def desnombres(nombres):
+#     for nombre in nombres:
+#         print(nombre)
+#
+#
+# nombres = ('Juan', 'Pepe', 'Pedro')
+# desnombres(nombres)
+# desnombres('Carlos')
+#
+#
+# # Dentro de una funcion para desplegar numeros se utilizan [] o () para lista y tupla resp
+
+# def facts(numeros):
+#     if numeros >= 1:
+#         print(numeros)
+#         facts(numeros - 1)
+#     elif numeros < 0:
+#         print('Numero no valido')
+#     else:
+#         print('Fin de conteo')
+#
+#
+# numero = int(input('Dame un numero: '))
+# facts(numero)
+
+# def calc(imp, perc):
+#     total = imp + (imp * (perc/100))
+#     return total
+#
+#
+# impuesto = float(input('Dame tus impuestos: '))
+# porce = float(input('El porcentaje a pagar: '))
+# res = calc(impuesto, porce)
+# print(res)
+
+# Calculadora convertidora de temperaturas
+# def convertir(temp, conv):
+#     temp = temp.lower()
+#     if temp != 'c' and temp != 'f':
+#         return 'Valor invalido'
+#     elif temp == 'c':
+#         return conv * 9 / 5 + 32
+#     elif temp == 'f':
+#         return (conv - 30) / 2
+#
+#
+# tempera = input("Que tipo de temperatura quieres convertir (C o F): ")
+# conver = float(input('Dame la temperatura a convertir: '))
+# print(convertir(tempera, conver))
+# Clases ------------------------
+class Persona:
+    def __init__(self, nombre, apellido):
+        self.nombre = nombre
+        self.apellido = apellido
+
+
+nombres = input('Dame tu nombre: ')
+apellidos = input('Dame tu apellido: ')
+Persona1 = Persona(nombres, apellidos)
+print(f'Tu nombre es {Persona1.nombre} y tu apellido es {Persona1.apellido}')
